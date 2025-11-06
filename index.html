@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastTypingTest</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 FastTypingTest</h1>
+        <p class="instructions">Ketik kalimat di bawah ini secepat mungkin:</p>
+        
+        <div id="quote-display" class="quote-display"></div>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <p>Waktu:</p>
+                <h2><span id="timer-value">0</span>s</h2>
+            </div>
+            <div class="stat-item">
+                <p>WPM (Live):</p>
+                <h2><span id="wpm-live">0</span></h2>
+            </div>
+        </div>
+        
+        <textarea id="quote-input" class="quote-input" rows="4" autofocus></textarea>
+        
+        <div id="results" class="results">
+            <p>Selesai! WPM Final Anda:</p>
+            <h2 class="wpm-display"><span id="wpm-final">0</span></h2>
+        </div>
+
+        <button id="restart-btn" class="restart-btn">Mulai Lagi</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
